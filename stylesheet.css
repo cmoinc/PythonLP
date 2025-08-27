@@ -407,19 +407,24 @@
   }
   .menu a{
     text-decoration: none;
-    font-size: 1.5vw;
+    font-size: 1.3vw;
     font-family: Noto Sans JP;
     font-weight: 500;
     color: white; ;
-    margin-inline: 5px;
+    margin-inline: 7px;
   }
   @media (max-width: 768px){
     .menu{
       height: 30px;
+      overflow-x:scroll;
+      overflow-y:hidden;
+      white-space: nowrap;
+      height: 50px;
     }
     .menu a{
-      margin-inline: 0.5vw;
-      font-size: 1.6vw;
+      margin-inline: 10px;
+      font-size: 14px;
+      
     }
   }
   @media (min-width: 1400px){
