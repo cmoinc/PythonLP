@@ -70,6 +70,9 @@
     font-family: Noto Sans JP;
   }
 
+  .gap{
+    line-height: 2;
+  }
   .space{
     height: 25px;
   }
@@ -133,6 +136,14 @@
   .bold{
     font-weight: bold;
   }
+  .center{
+    text-align: center;
+  }
+  .underline{
+    text-decoration: underline 2.5px;
+    text-underline-offset:6px;
+  }
+
 
   .heading{
     background: linear-gradient(90deg, rgba(55, 100, 92, 0.90) 0%, rgba(120, 215, 197, 0.90) 100%);
@@ -223,6 +234,18 @@
       margin-left: 200px;
     }
   }
+
+  .no-line{
+    font-size: 18pt;
+    margin-block: 50px;
+    max-width: fit-content;
+  }
+  .no-line-center{
+    font-size: 18pt;
+    margin-block: 20px 50px;
+
+  }
+
   .logo{
     z-index: 5;
     display: flex;
@@ -286,7 +309,7 @@
     line-height: 1.7;
   }
   .p-bold{
-    font-weight: 600;
+    font-weight: 700;
     font-size: 14pt;
     margin-top: 0px;
     margin-bottom: 40px;
@@ -303,12 +326,22 @@
       font-size: 32px;
     }
   }
+
+  .p-small{
+    font-size: 10pt;
+  }
+  .p-small-bold{
+    font-size: 12pt;
+    font-weight: 700;
+    margin-block: 20px;
+  }
   .p-small-center{
     font-size: 10pt;
     font-weight: 500;
     text-align: center;
     margin-block: 20px;
   }
+
   .p-regular{
     font-size: 12pt;
   }
@@ -440,7 +473,14 @@
   .description-body{
     margin-inline: 100px;
     margin-block: 50px
-    ;
+  }
+  .description-body p{
+    line-height: 2.5;
+  }
+  @media (max-width: 768px){
+    .description-body{
+      margin: 30px 40px;
+    }
   }
   @media (min-width: 1500px){
     .description-body{
@@ -464,7 +504,7 @@
   }
   @media (max-width:768px){
     .popular-body{
-    margin-inline: 40px;
+    margin: 30px 40px;
     }
   }
   .popular-column{
@@ -493,6 +533,45 @@
     text-align: center;
     height: 180px;
   }
+ .one{
+    background: url(./asset/icons/head-side-virus-solid-full.svg);
+    background-repeat: no-repeat;
+  }
+  .two{
+    background: url(./asset/icons/ai.svg);
+    background-repeat: no-repeat;
+  }
+  .three{
+    background: url(./asset/icons/bars-staggered-solid-full.svg);
+    background-repeat: no-repeat;
+  }
+  .four{
+    background: url(./asset/icons/question-solid-full.svg);
+    background-repeat: no-repeat;
+    background-position: -30px 0px ;
+  }
+  .five{
+    background: url(./asset/icons/arrows-spin-solid-full.svg);
+    background-repeat: no-repeat;
+  }
+  .six{
+    background: url(./asset/icons/exclamation-solid-full.svg);
+    background-repeat: no-repeat;
+    background-position: -40px 0px;
+  }
+  .seven{
+    background: url(./asset/icons/puzzle-piece-solid-full.svg);
+    background-repeat: no-repeat;
+  }
+  .eight{
+    background: url(./asset/icons/code-solid-full.svg);
+    background-repeat: no-repeat;
+  }
+  .nine{
+    background: url(./asset/icons/user-group-solid.svg);
+    background-repeat: no-repeat;
+  }
+
 
   .python-body{  
     margin-inline: 100px;
@@ -500,7 +579,7 @@
   }
   @media (max-width:768px){
     .python-body{
-    margin-inline: 40px;
+      margin: 30px 40px;
     }
   }
   @media (min-width: 1500px){
@@ -593,13 +672,52 @@
   .mentor-body{
     margin: 50px 100px;
   }
+  .mentor-heading{
+    font-size: 18pt;
+    margin-block: 80px 60px;
+    max-width: fit-content;
+    justify-self: center;
+  }
+  .sub-heading{
+    text-align: left;
+    z-index: 3;
+    font-size: 18pt;
+    margin-block: -20px;
+    width: fit-content;
+    line-height: 2;
+  }
+  .sub-heading::after {
+    background:#FFD1CE;
+    z-index: -1;
+    content:attr(background-color);
+    display: block;
+    height: 85%;
+    left: 0;
+    padding-top: 15px;
+    position: relative;
+    pointer-events: none;
+    overflow: hidden;
+    top: -20px;
+    width: 100%
+  }
+  @media (max-width: 786px){
+    .sub-heading{
+      font-size: 3.0vw;
+    }
  
+  }
+  @media (min-width: 1500px){
+    .sub-heading::after {
+      height: 11px;
+      top: -34px;
+    }
+  }
   @media (max-width: 768px){
     .mentor-body{
-      margin-inline: 30px;
+      margin: 30px 40px;
     }
     .mentor-items{
-      margin: 0 30px;
+      margin: 30px 0px;
     }
   }
   @media (min-width: 1500px){
@@ -641,7 +759,7 @@
   }
   @media (max-width: 768px){
     .course-overview{
-      margin-inline: 30px;
+      margin-inline: 30px 40px;
     }
   }
 
@@ -657,7 +775,7 @@
       display: block;
     }
     .program-lesson{
-      margin-inline: 30px;
+      margin-inline: 30px 40px;
     }
   }
   .lesson .p-bold{
@@ -733,8 +851,7 @@
   }
   @media (max-width: 768px){
     .corporate-body{
-      margin-inline: 30px;
-      margin-block: 0;
+      margin: 0px 40px;
     }
   }
   @media (min-width: 1500px){
@@ -764,7 +881,7 @@
   }
   @media (max-width: 768px){
     .usage-body{
-      margin: 30px;
+      margin: 30px 40px;
       width: 90%;
     }
   }
@@ -845,7 +962,7 @@
   }
   @media (max-width: 768px){
     .precautions-body{
-      margin: 30px;
+      margin: 30px 40px;
     }
   }
   @media (min-width: 1500px){
