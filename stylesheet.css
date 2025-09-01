@@ -155,7 +155,7 @@
   }
   @media (max-width: 768px){
     .heading{
-     font-size: 14pt;
+     font-size: 15pt;
     }
   }
   @media (min-width: 1500px){
@@ -519,7 +519,7 @@
   }
   @media (max-width: 768px){
     .description-body{
-      margin: 30px 40px;
+      margin: 30px 30px;
     }
   }
   @media (min-width: 1500px){
@@ -620,7 +620,7 @@
   }
   @media (max-width:768px){
     .python-body{
-      margin: 30px 40px;
+      margin: 30px 30px;
     }
   }
   @media (min-width: 1500px){
@@ -679,7 +679,7 @@
   }
   @media (max-width: 768px){
     .support-body{
-      margin-inline: 30px;
+      margin-inline: 20px;
       padding: 10px 20px;
     }
   }
@@ -810,7 +810,7 @@
   }
   @media (max-width: 768px){
     .course-overview{
-      margin-inline: 30px 40px;
+      margin-inline: 30px 30px;
     }
   }
 
@@ -905,7 +905,7 @@
   }
   @media (max-width: 768px){
     .corporate-body{
-      margin: 0px 40px;
+      margin: 0px 30px;
     }
   }
   @media (min-width: 1500px){
@@ -1016,7 +1016,7 @@
   }
   @media (max-width: 768px){
     .precautions-body{
-      margin: 30px 40px;
+      margin: 30px 30px;
     }
   }
   @media (min-width: 1500px){
