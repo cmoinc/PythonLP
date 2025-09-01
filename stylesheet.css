@@ -239,6 +239,14 @@
     font-size: 18pt;
     margin-block: 20px 50px;
   }
+  @media (max-width:768px){
+    .no-line{
+      font-size: 14pt;
+    }
+    .no-line-center{
+      font-size: 14pt;
+    }
+  }
   @media (min-width:1500px){
     .no-line{
       font-size: 32px;
@@ -439,6 +447,15 @@
   .p-large-center{
     text-align: center;
     font-size: 15pt;
+  }
+  @media (max-width:768px){
+    .p-large{
+      font-size: 13pt;
+    }
+    .p-large-center{
+      font-size: 13pt;
+    }
+
   }
   @media (min-width: 1500px){
     .p-large{
@@ -732,7 +749,8 @@
   }
   @media (max-width: 786px){
     .sub-heading{
-      font-size: 3.0vw;
+      font-size: 2.8vw;
+      line-height: 3;
     }
  
   }
@@ -820,6 +838,9 @@
     }
     .lesson .p-medium{
       font-size: 11pt;
+    }
+    .issue{
+      font-size: 12pt;
     }
   }
   @media (min-width:1500px){
