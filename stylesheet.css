@@ -119,13 +119,10 @@
     }
   }
   @media (min-width:1500px){
-    .btn{
-   
-    }
     .button{
-      width: 300px;
-      font-size: 20px;
-      padding: 28px 16px;
+      width: 500px;
+      font-size: 24px;
+      padding: 28px 50px;
       border-radius: 50px;
     }
   }
@@ -217,11 +214,9 @@
     }
     .banner-header{
       font-size: 3vw;
-      margin-left: px;
       }
     .banner-text{
       font-size: 1.9vw;
-      margin-left: px;
     }
   }
   @media (min-width:1500px){
@@ -243,7 +238,14 @@
   .no-line-center{
     font-size: 18pt;
     margin-block: 20px 50px;
-
+  }
+  @media (min-width:1500px){
+    .no-line{
+      font-size: 32px;
+    }
+    .no-line-center{
+      font-size: 32px;
+    }
   }
 
   .logo{
@@ -341,6 +343,17 @@
     text-align: center;
     margin-block: 20px;
   }
+  @media (min-width: 1500px){
+    .p-small{
+      font-size: 22px;
+    }
+    .p-small-bold{
+      font-size: 22px;
+    }
+    .p-small-center{
+      font-size: 22px;
+    }
+  }
 
   .p-regular{
     font-size: 12pt;
@@ -427,6 +440,16 @@
     text-align: center;
     font-size: 15pt;
   }
+  @media (min-width: 1500px){
+    .p-large{
+      font-size: 36px;
+      margin-block: 40px 30px;
+    }
+    .p-large-center{
+      text-align: center;
+      font-size: 36px;
+    }
+  }
 
   .menu{
     position: sticky;
@@ -475,7 +498,7 @@
     margin-block: 50px
   }
   .description-body p{
-    line-height: 2.5;
+    line-height: 2;
   }
   @media (max-width: 768px){
     .description-body{
@@ -495,6 +518,7 @@
     margin-block: 50px
     ;
   }
+
   @media (min-width: 1500px){
     .popular-body{
       margin-inline: 150px;
@@ -678,6 +702,12 @@
     max-width: fit-content;
     justify-self: center;
   }
+  @media (min-width: 1500px){
+    .mentor-heading{
+      font-size: 32px;
+    }
+  }
+
   .sub-heading{
     text-align: left;
     z-index: 3;
@@ -707,6 +737,9 @@
  
   }
   @media (min-width: 1500px){
+    .sub-heading{
+      font-size: 32px;
+    }
     .sub-heading::after {
       height: 11px;
       top: -34px;
@@ -871,7 +904,7 @@
     margin-block: 30px;
   }
   .corporate .btn{
-    margin-bottom: 0;
+    margin-bottom: 30px;
   }
 
 
