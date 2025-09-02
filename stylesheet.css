@@ -575,7 +575,11 @@
     justify-items: center;
     align-content: center;
     text-align: center;
-    height: 180px;
+  }
+  @media (max-width:1500px){
+    .popular-items{
+      height: 180px;
+    }
   }
   @media (min-width:1500px){
     .popular-items{
