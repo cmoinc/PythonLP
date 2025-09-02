@@ -577,6 +577,11 @@
     text-align: center;
     height: 180px;
   }
+  @media (min-width:1500px){
+    .popular-items{
+      height: 210px;
+    }
+  }
  .one{
     background: url(./asset/icons/head-side-virus-solid-full.svg);
     background-repeat: no-repeat;
