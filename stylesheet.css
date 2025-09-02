@@ -155,7 +155,10 @@
   }
   @media (max-width: 768px){
     .heading{
-     font-size: 15pt;
+     font-size: 16pt;
+    }
+    .usage h2{
+      font-size: 14pt;
     }
   }
   @media (min-width: 1500px){
@@ -935,7 +938,7 @@
   }
   @media (max-width: 768px){
     .usage-body{
-      margin: 30px 40px;
+      margin: 30px auto;
       width: 90%;
     }
   }
